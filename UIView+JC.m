@@ -9,10 +9,12 @@
 #import "UIView+JC.h"
 
 @implementation UIView (JC)
+
 UIFont *fontSize(NSUInteger size)
 {
     return [UIFont systemFontOfSize:size];
 }
+
 BOOL objectIsEmpty(id object)
 {
     if ([object isKindOfClass:[NSNull class]] ||object==nil)
@@ -29,6 +31,7 @@ void LogObjectClass(id object)
 {
     NSLog(@"object is %@ class",NSStringFromClass([object class]));
 }
+
 BOOL isHaveNewVersion(NSString *version)
 {
     //去掉点

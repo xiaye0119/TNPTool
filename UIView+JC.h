@@ -15,10 +15,12 @@
  *
  *     @return 字体大小
  */
+
 UIFont *fontSize(NSUInteger size);
 /**
  *     判断对象是否为空
  */
+
 FOUNDATION_EXPORT BOOL objectIsEmpty(id object);
 
 
@@ -26,6 +28,7 @@ FOUNDATION_EXPORT BOOL objectIsEmpty(id object);
  *     输出对象类型
  */
 FOUNDATION_EXPORT void LogObjectClass(id object);
+
 /**
  *     判断是否有新版本(传入App Store的版本)
  *
@@ -46,6 +49,7 @@ FOUNDATION_EXPORT NSString *sandBoxCachesPath(void);
  *     当前版本号
  */
 FOUNDATION_EXPORT NSString *bundleVersion(void);
+
 @end
 /**
  *     布局位置
