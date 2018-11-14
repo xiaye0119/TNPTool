@@ -1,5 +1,3 @@
 {
- "name":"tnp",
- "isGetPass":"1",
- "headUrl":"https://www.baidu.com/"
+ "isGetPass":"1"
 }
